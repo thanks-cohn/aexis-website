@@ -1,0 +1,13 @@
+{
+  "routes": [
+    { "path": "/", "id": "landing" },
+    { "path": "/play/", "id": "browser-play" },
+    { "path": "/wasm/", "id": "wasm-lab" },
+    { "path": "/download/", "id": "downloads" }
+  ],
+  "systems": [
+    { "id": "site", "kind": "presentation" },
+    { "id": "cdn", "kind": "immutable-assets", "origin": "https://cdn.aexis.world" },
+    { "id": "webrev", "kind": "inspection" }
+  ]
+}
