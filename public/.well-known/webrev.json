@@ -1,0 +1,17 @@
+{
+  "name": "AEXIS World",
+  "site": "https://aexis.world",
+  "cdn": "https://cdn.aexis.world",
+  "webrev": {
+    "revision": "/__webrev/revision.json",
+    "tree": "/__webrev/tree.json",
+    "health": "/__webrev/health.json",
+    "media": "/__webrev/media.json",
+    "play": "/play/",
+    "wasm": "/wasm/"
+  },
+  "agent": {
+    "entrypoint": "/__webrev/agent.json",
+    "purpose": "Structured inspection surface for coding agents and diagnostics."
+  }
+}
