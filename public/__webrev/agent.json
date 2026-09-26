@@ -1,0 +1,22 @@
+{
+  "schema": "webrev-agent-v0",
+  "site": "https://aexis.world",
+  "cdn": "https://cdn.aexis.world",
+  "inspect": [
+    "/__webrev/revision.json",
+    "/__webrev/tree.json",
+    "/__webrev/health.json",
+    "/__webrev/media.json"
+  ],
+  "routes": {
+    "home": "/",
+    "play": "/play/",
+    "wasm": "/wasm/",
+    "download": "/download/"
+  },
+  "notes": [
+    "Primary site and CDN are intentionally separated.",
+    "Large immutable assets should prefer cdn.aexis.world.",
+    "WASM experiments must not be required for the primary site to function."
+  ]
+}
