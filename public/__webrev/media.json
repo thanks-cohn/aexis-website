@@ -1,0 +1,11 @@
+{
+  "cdn": "https://cdn.aexis.world",
+  "policy": {
+    "video": "cdn",
+    "wasm": "cdn",
+    "models": "cdn",
+    "textures": "cdn",
+    "downloads": "cdn",
+    "small-ui-assets": "site-or-cdn"
+  }
+}
