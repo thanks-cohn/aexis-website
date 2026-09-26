@@ -1,0 +1,8 @@
+{
+  "status": "healthy",
+  "checks": [
+    { "id": "site-shell", "status": "healthy" },
+    { "id": "cdn-contract", "status": "declared" },
+    { "id": "wasm-boundary", "status": "isolated" }
+  ]
+}
